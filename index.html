@@ -4,28 +4,17 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Калькуляторы | Агентство Недвижимости</title>
-  <script src="telegram-webapp.js"></script>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>Калькуляторы</h1>
+  <img src="logo.svg" alt="logo">
+  <h1>Estate Elite - ваш помощник в вопросах недвижимости</h1>
 
   <div class="flex flex-col gap-4 p-4">
-    <button onclick="showCreditCalc()">💰 Кредитный калькулятор</button>
-    <button onclick="showRepairCalc()">🛠 Ремонт квартиры</button>
-    <button onclick="showGuide()">📘 Гид покупателя</button>
-    <button onclick="showContact()">📞 Обратная связь</button>
+    <button onclick="location.href='credit.html'">💰 Кредитный калькулятор</button>
+    <button onclick="location.href='repair.html'">🛠 Ремонт квартиры</button>
+    <button onclick="location.href='guide.html'">📘 Гид покупателя</button>
+    <button onclick="location.href='contact.html'">📞 Обратная связь</button>
   </div>
-
-  <div id="content" class="p-4 text-sm"></div>
-
-  <script src="credit.js"></script>
-  <script src="repair.js"></script>
-  <script src="guide.js"></script>
-<script src="contact.js"></script>
-<script src="https://telegram.org/js/telegram-web-app.js"></script>
-<script src="telegram-webapp.js"></script>
-
-
 </body>
 </html>
